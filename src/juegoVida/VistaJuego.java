@@ -56,7 +56,7 @@ public class VistaJuego extends JFrame {
 		contentPane.add(panelJuego);
 		
 		JButton btnNewButton = new JButton("INICIAR");
-		btnNewButton.setIcon(new ImageIcon("./src/imagenes/play.png"));
+		btnNewButton.setIcon(new ImageIcon("juegoVida/play.png"));
 		btnNewButton.setFont(new Font("Dialog", Font.BOLD, 24));
 		btnNewButton.setBounds(1068, 12, 220, 60);
 		btnNewButton.setBackground(Color.GRAY);
@@ -68,17 +68,17 @@ public class VistaJuego extends JFrame {
 		panel.add(lblCreadoPorHugo);
 		
 		JLabel youtube = new JLabel("");
-		youtube.setIcon(new ImageIcon("./src/imagenes/youtube.png"));
+		youtube.setIcon(new ImageIcon("juegoVida/youtube.png"));
 		youtube.setBounds(426, 12, 64, 60);
 		panel.add(youtube);
 		
 		JLabel youtube_1 = new JLabel("");
-		youtube_1.setIcon(new ImageIcon("./src/imagenes/linkedin.png"));
+		youtube_1.setIcon(new ImageIcon("juegoVida/linkedin.png"));
 		youtube_1.setBounds(597, 12, 64, 60);
 		panel.add(youtube_1);
 		
 		JLabel youtube_1_1 = new JLabel("");
-		youtube_1_1.setIcon(new ImageIcon("./src/imagenes/gitHub.png"));
+		youtube_1_1.setIcon(new ImageIcon("uegoVida/gitHub.png"));
 		youtube_1_1.setBounds(510, 12, 64, 60);
 		panel.add(youtube_1_1);
 		
@@ -101,7 +101,7 @@ public class VistaJuego extends JFrame {
 		panel.add(lblHugoVeraS);
 		
 		JLabel youtube_2 = new JLabel("");
-		youtube_2.setIcon(new ImageIcon("./src/imagenes/juegoVida.png"));
+		youtube_2.setIcon(new ImageIcon("juegoVida/juegoVida.png"));
 		youtube_2.setBounds(22, 12, 153, 60);
 		panel.add(youtube_2);
 		
@@ -147,7 +147,7 @@ public class VistaJuego extends JFrame {
 					valorRun=true; 
 					
 					btnNewButton.setText("DETENER");
-					btnNewButton.setIcon(new ImageIcon("./src/imagenes/pause.png"));
+					btnNewButton.setIcon(new ImageIcon("juegoVida/pause.png"));
 					btnNewButton.setBackground(new Color(255,255,255));
 						
 				}else {	
@@ -155,7 +155,7 @@ public class VistaJuego extends JFrame {
 					valorRun=false; 
 					
 					btnNewButton.setText("INICIAR");
-					btnNewButton.setIcon(new ImageIcon("./src/imagenes/play.png"));
+					btnNewButton.setIcon(new ImageIcon("juegoVida/play.png"));
 					btnNewButton.setBackground(Color.GRAY);	
 				}
 				
